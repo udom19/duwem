@@ -8,8 +8,8 @@ app.use(express.static(publicDir));
 
 app.get("/", function(req, res){
   res.render("landing");
-});
-
+}); 
+   
 app.get("/etgehubteens", function(req, res){
   res.render("etgehubteens");
 });
