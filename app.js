@@ -1,5 +1,5 @@
 var express = require("express");
-var app = express();
+var app = express(); 
 
 var publicDir = require('path').join(__dirname,'/public');
 
@@ -11,7 +11,7 @@ app.get("/", function(req, res){
 }); 
    
 app.get("/etgehubteens", function(req, res){
-  res.render("etgehubteens");
+  res.render("etgehubteens"); 
 });
 
 app.get("/parents", function(req, res){
@@ -47,6 +47,6 @@ app.get("/etgehubteens/advance", function(req, res){
 });
 
 
-app.listen(process.env.PORT || 5000, function(){
+app.listen(process.env.PORT || 5500, function(){
   console.log("The Server has started");
 }); 
