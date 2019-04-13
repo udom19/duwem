@@ -1,0 +1,51 @@
+/* Full Page Carousel itself*/
+.carousel {
+    height: 100%; }
+    .carousel .carousel-inner {
+      height: 100%; }
+      .carousel .carousel-inner .carousel-item,
+      .carousel .carousel-inner .active {
+        height: 100%; }
+  
+  /* Navbar animation */
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.2); }
+  
+  .top-nav-collapse {
+    background-color: #1C2331; }
+  
+  /* Adding color to the Navbar on mobile */
+  @media only screen and (max-width: 768px) {
+    .navbar {
+      background-color: #1C2331; } }
+  
+  /* Footer color for sake of consistency with Navbar */
+
+  .page-footer {
+    background-color: #1C2331; }
+
+  #ourservices{
+      background-color: #1C2331;
+      color: white;
+    }
+
+  #header-text{
+    color: #0f52ba;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .view{
+      height: 100vh;
+  }
+
+  #carousel-text{
+      font-size: 2em;
+  }
+
+  #carousel-text1{
+      font-size: 2em;
+      padding-right: 40%;
+      padding-bottom: 10%;
+      color: blue;
+  }
