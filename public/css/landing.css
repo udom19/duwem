@@ -45,7 +45,15 @@
 
   #carousel-text1{
       font-size: 2em;
-      padding-right: 40%;
+      padding-right: 30%;
       padding-bottom: 10%;
       color: blue;
+  }
+
+  #art{
+    font-size: 2em;
+  }
+
+  #arts{
+    font-size: 2em;
   }
