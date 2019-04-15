@@ -27,3 +27,9 @@ header,
       background-color: #24355C;
     }
   }
+
+  .blog-header{
+    background-color: black;
+    padding-top: 100px;
+    color: red;
+  }

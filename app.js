@@ -46,6 +46,10 @@ app.get("/etgehubteens/advance", function(req, res){
   res.render("advance");
 });
 
+app.get("/blogs", function(req, res){
+  res.render("blog-landing");
+});
+
 
 app.listen(process.env.PORT || 5500, function(){
   console.log("The Server has started");
