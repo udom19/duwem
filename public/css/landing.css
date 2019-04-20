@@ -29,8 +29,8 @@
       color: white;
     }
 
-  #header-text{
-    color: #0f52ba;
+  .header-text{
+    color: #3498db;
     font-weight: bolder;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
@@ -44,10 +44,16 @@
   }
 
   #carousel-text1{
-      font-size: 2em;
-      padding-right: 30%;
-      padding-bottom: 10%;
-      color: blue;
+    padding-bottom: 20%;
+    padding-right: 40%;
+  }
+
+  .carousel-text1{
+      font-size: 2rem;
+      /* padding-right: 40%; */
+      /* padding-bottom: 40%; */
+      /* text-align: center; */
+      /* color: blue; */
   }
 
   #art{
@@ -56,11 +62,12 @@
 
   #arts{
     font-weight: bolder;
+    font-size: 3rem;
   }
 
   .blog-header{
     background-color: #1C2331;
-    margin-top: 64px;
+    margin-top: 55px;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
@@ -68,4 +75,58 @@
 
   a{
     color: white;
+  }
+
+  .track-header{
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  h1 { 
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+    font-size: 24px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px; 
+  } 
+  h3 { 
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 15.4px; 
+  } 
+
+  h5{
+    text-transform: uppercase;
+  }
+  p { 
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+    font-size: 18px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px; 
+  } 
+  blockquote { 
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+    font-size: 21px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 30px; 
+  } 
+  pre { 
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+    font-size: 13px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 18.5714px; 
+  }
+  
+  .hr-light{
+    width: 70%;
   }

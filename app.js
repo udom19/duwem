@@ -42,12 +42,16 @@ app.get("/etgehubteens/intermediate", function(req, res){
   res.render("intermediate");
 });
 
-app.get("/etgehubteens/advance", function(req, res){
-  res.render("advance");
+app.get("/talentdev", function(req, res){
+  res.render("talentdev");
 });
 
 app.get("/blogs", function(req, res){
   res.render("blog-landing");
+});
+
+app.get("/about-us", function(req, res){
+  res.render("about-us")
 });
 
 
