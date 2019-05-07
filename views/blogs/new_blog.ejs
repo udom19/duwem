@@ -1,0 +1,43 @@
+<% include ../partials/landing-header %>
+    <section class="mt-5 pt-5">
+            <div style="width: 30%; margin: 10px auto">
+                <form action="/blogs" method="POST">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="title" placeholder="title">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="date" placeholder="date">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="image" placeholder="image url">
+                    </div>
+                    <div class="form-group">
+                        <textarea type="text" class="form-control" name="content" placeholder="content"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="author" placeholder="author">
+                    </div>
+                    <div class="form-group">
+                        <textarea type="text" class="form-control" name="authorProfile" placeholder="authorProfile"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="authorImage" placeholder="authorImage">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="authorFacebookLink" placeholder="authorFacebookLink">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="authorTwitterLink" placeholder="authorTwitterLink">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="authorLinkedInLink" placeholder="authorLinkedInLink">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="authorInstagramLink" placeholder="authoInstagramLink">
+                    </div>
+                    <button class="btn btn-primary btn-sm">post</button>
+                </form>
+        </div>
+            
+    </section>
+<% include ../partials/landing-footer %>

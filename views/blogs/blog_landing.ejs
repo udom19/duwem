@@ -1,0 +1,51 @@
+<% include ../partials/landing-header %>
+
+    <div class="blog-header">
+        <div class="container blog-text">
+        <h1 class="pt-5"><strong>BLOG</strong></h1>
+        <p><a href="/" class="text-white"> Home</a>  <i class="fas fa-angle-right"></i><a href="/" class="text-white"> Blog</a></p> 
+        </div>
+    </div>
+    <div class="container pt-1">
+
+        <hr class="my-5">
+    
+        <!--Section: Cards-->
+        <section class="text-center">
+    
+            <!--Grid row-->
+            <div class="row mb-4 wow fadeIn">
+                <% blogs.forEach(function(blog){ %>
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4">
+
+                        <!--Card-->
+                        <div class="card">
+                
+                            <!--Card image-->
+                            <div class="views overlay">
+                                <img src="<%= blog.image %>" class="card-img-top"
+                                alt="">
+                                <a href="#">
+                                <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="card-title"><%= blog.title %></h4>
+                                <!--Text-->
+                                <p class="card-text"><%- blog.content.substring(0, 100) %>... <a href="/blogs/<%= blog._id %>" class="btn btn-outline-info btn-sm">See More</a></p>
+                            </div>
+                            <!--/.Card-->
+                
+                        </div>
+                    </div>
+                    <% }) %>
+                        <!--Grid column-->
+            </div>
+        </section>
+    </div>
+
+<% include ../partials/landing-footer %>
